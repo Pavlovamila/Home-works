@@ -15,8 +15,26 @@ else
     Console.WriteLine($"Number {n1} is not a square of {n2}");
 */
 
+/*
 //Задача 2. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
+Console.Write("Input a positive integer number: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
+int current = -number;
 
+while(current <= number)
+{
+    Console.Write(current + " ");
+    current++;
+}
+*/
 
+// Задача 3. Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+/*
+Console.Write("Input three-digit number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int result = number % 10;
+Console.WriteLine($"Last digit of {number} is {result}");
+*/
